@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html body
+{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar
+{
+    background-color:#fff;
+    height: 60px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.navbar #logo
+{
+    align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-list
+{   
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.nav-list li
+{
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.nav-list li:last-child
+{
+    margin-right: 0;
+}
+
+.nav-list .btn
+{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border: none;
+    font-size: 16px;
+}
+
+.hero
+{
+    display: flex;
+
+}
+
+.left .readm
+{
+    height: 90px;
+    width: 200px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+}
+
+.readm a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.left
+{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    padding-left: 40px;
+    color: #fff;
+    background-image: url("./images/tiger.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+    /* border: #000 solid ; */
+}
+.right
+{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    /* border: red solid; */
+}
+
+
+.imag
+{
+    background-size: cover;
+    background-position: center;
+}
+
+#btn1
+{
+    position: absolute;
+    display: flex;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    bottom: 10px;
+    right: 400px;
+    cursor: pointer;
+}
+
+#btn2
+{
+    position: absolute;
+    display: flex;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    gap: 30px;
+    bottom: 10px;
+    right: 200px;
+    cursor: pointer;
+}
