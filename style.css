@@ -148,3 +148,41 @@ a
     right: 200px;
     cursor: pointer;
 }
+
+
+
+/* contact  */
+.hero
+{
+    display: flex;
+}
+.co
+{
+    position: absolute;
+    height: 40vh;
+    width: 100vw;
+    background-color: #000;
+}
+.cot
+{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    background-image: url(./images/tg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding-left: 10%;
+    opacity: 30%;
+    /* border: red solid; */
+}
+
+#ct
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    left: 10%;
+    top: 25%;
+    position: absolute;
+}
